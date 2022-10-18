@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1F34D32828FF19DB002D6E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34D32728FF19DB002D6E63 /* AppDelegate.swift */; };
 		1F34D32A28FF19DB002D6E63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34D32928FF19DB002D6E63 /* SceneDelegate.swift */; };
-		1F34D32C28FF19DB002D6E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34D32B28FF19DB002D6E63 /* ViewController.swift */; };
+		1F34D32C28FF19DB002D6E63 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34D32B28FF19DB002D6E63 /* LaunchViewController.swift */; };
 		1F34D32F28FF19DB002D6E63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F34D32D28FF19DB002D6E63 /* Main.storyboard */; };
 		1F34D33128FF19DD002D6E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F34D33028FF19DD002D6E63 /* Assets.xcassets */; };
 		1F34D33428FF19DD002D6E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F34D33228FF19DD002D6E63 /* LaunchScreen.storyboard */; };
+		1F34D33C28FF21B7002D6E63 /* duck.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F34D33B28FF21B7002D6E63 /* duck.json */; };
+		1F34D33F28FF272E002D6E63 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F34D33E28FF272E002D6E63 /* LaunchView.swift */; };
+		431BFCD7F93E958171633558 /* Pods_PhotoEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A223DFA5A9CD5E4575644130 /* Pods_PhotoEditor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F34D32428FF19DB002D6E63 /* PhotoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F34D32728FF19DB002D6E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F34D32928FF19DB002D6E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F34D32B28FF19DB002D6E63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F34D32B28FF19DB002D6E63 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		1F34D32E28FF19DB002D6E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F34D33028FF19DD002D6E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F34D33328FF19DD002D6E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F34D33528FF19DD002D6E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F34D33B28FF21B7002D6E63 /* duck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = duck.json; path = "../../../../Downloads/iOS Contest/5 Resources/3 Sticker/duck.json"; sourceTree = "<group>"; };
+		1F34D33E28FF272E002D6E63 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		74FBDF63F7B58D7232B9A605 /* Pods-PhotoEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor.debug.xcconfig"; path = "Target Support Files/Pods-PhotoEditor/Pods-PhotoEditor.debug.xcconfig"; sourceTree = "<group>"; };
+		A223DFA5A9CD5E4575644130 /* Pods_PhotoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C1BE46C60433E090E98045 /* Pods-PhotoEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoEditor.release.xcconfig"; path = "Target Support Files/Pods-PhotoEditor/Pods-PhotoEditor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				431BFCD7F93E958171633558 /* Pods_PhotoEditor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				1F34D32628FF19DB002D6E63 /* PhotoEditor */,
 				1F34D32528FF19DB002D6E63 /* Products */,
+				7374EB2C6F29F4D255B6607E /* Pods */,
+				E5A5F3E87DD88B6E7FABF9E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +67,42 @@
 		1F34D32628FF19DB002D6E63 /* PhotoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				1F34D33D28FF26E9002D6E63 /* LaunchViewController */,
 				1F34D32728FF19DB002D6E63 /* AppDelegate.swift */,
 				1F34D32928FF19DB002D6E63 /* SceneDelegate.swift */,
-				1F34D32B28FF19DB002D6E63 /* ViewController.swift */,
+				1F34D33B28FF21B7002D6E63 /* duck.json */,
 				1F34D32D28FF19DB002D6E63 /* Main.storyboard */,
 				1F34D33028FF19DD002D6E63 /* Assets.xcassets */,
 				1F34D33228FF19DD002D6E63 /* LaunchScreen.storyboard */,
 				1F34D33528FF19DD002D6E63 /* Info.plist */,
 			);
 			path = PhotoEditor;
+			sourceTree = "<group>";
+		};
+		1F34D33D28FF26E9002D6E63 /* LaunchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F34D32B28FF19DB002D6E63 /* LaunchViewController.swift */,
+				1F34D33E28FF272E002D6E63 /* LaunchView.swift */,
+			);
+			path = LaunchViewController;
+			sourceTree = "<group>";
+		};
+		7374EB2C6F29F4D255B6607E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74FBDF63F7B58D7232B9A605 /* Pods-PhotoEditor.debug.xcconfig */,
+				C1C1BE46C60433E090E98045 /* Pods-PhotoEditor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5A5F3E87DD88B6E7FABF9E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A223DFA5A9CD5E4575644130 /* Pods_PhotoEditor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F34D33828FF19DD002D6E63 /* Build configuration list for PBXNativeTarget "PhotoEditor" */;
 			buildPhases = (
+				5099A031C4DDD4EDF024B812 /* [CP] Check Pods Manifest.lock */,
 				1F34D32028FF19DB002D6E63 /* Sources */,
 				1F34D32128FF19DB002D6E63 /* Frameworks */,
 				1F34D32228FF19DB002D6E63 /* Resources */,
+				A14E5DBE023DFF9F23A15FD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,7 +143,7 @@
 				};
 			};
 			buildConfigurationList = 1F34D31F28FF19DB002D6E63 /* Build configuration list for PBXProject "PhotoEditor" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -125,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F34D33C28FF21B7002D6E63 /* duck.json in Resources */,
 				1F34D33428FF19DD002D6E63 /* LaunchScreen.storyboard in Resources */,
 				1F34D33128FF19DD002D6E63 /* Assets.xcassets in Resources */,
 				1F34D32F28FF19DB002D6E63 /* Main.storyboard in Resources */,
@@ -133,12 +174,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5099A031C4DDD4EDF024B812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoEditor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A14E5DBE023DFF9F23A15FD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoEditor/Pods-PhotoEditor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoEditor/Pods-PhotoEditor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoEditor/Pods-PhotoEditor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F34D32028FF19DB002D6E63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F34D32C28FF19DB002D6E63 /* ViewController.swift in Sources */,
+				1F34D32C28FF19DB002D6E63 /* LaunchViewController.swift in Sources */,
+				1F34D33F28FF272E002D6E63 /* LaunchView.swift in Sources */,
 				1F34D32828FF19DB002D6E63 /* AppDelegate.swift in Sources */,
 				1F34D32A28FF19DB002D6E63 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +366,7 @@
 		};
 		1F34D33928FF19DD002D6E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74FBDF63F7B58D7232B9A605 /* Pods-PhotoEditor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +396,7 @@
 		};
 		1F34D33A28FF19DD002D6E63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C1BE46C60433E090E98045 /* Pods-PhotoEditor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
